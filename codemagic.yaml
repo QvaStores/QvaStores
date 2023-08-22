@@ -1,8 +1,6 @@
 workflows:
   my-workflow:
     scripts:
-      - name: Instalar dependencias
-        script: flutter pub get
       - name: Construir APK de Android
         script: flutter build apk --release
     artifacts:
